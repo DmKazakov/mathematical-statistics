@@ -56,4 +56,5 @@ b_trace = go.Scatter(
     x=[n for n in range(MIN_N_VALUE, MAX_N_VALUE, 10)],
     y=b_mean_lens
 )
+
 py.offline.plot(dict(data=[b_trace], layout=layout), filename='b')
